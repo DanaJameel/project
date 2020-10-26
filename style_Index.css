@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none; 
+}
+li{
+    float: left;
+    margin: 30px ;
+    color: darkgoldenrod;
+     
+}
+a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 700;
+    color: darkgoldenrod;
+    
+
+}
+
+#logo{
+    float: left;
+    margin-right: 200px;
+}
+.navigation{ 
+    height: 82px;
+    width: 1300px;
+    background-color: rgb(1, 1, 41);
+
+}
+
+#mainSec{
+    height: 700px;
+    width: 1300px;
+    background: url(./images/background.PNG);
+    background-color: navy;
+}
+
+form.forSearch input[type=search] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 45%;
+    background: #f1f1f1;
+
+    float: left;
+    margin-top: 500px;
+    margin-left: -210px;
+}
+
+form.forSearch button {
+    width: 5%;
+    padding: 10px;
+    background: lightskyblue;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+
+    float: left;
+    margin-top: 500px;
+    margin-left: -60px;
+  }
+ 
+
+#mainSec1{
+    height: 700px;
+    width: 1300px;
+    background-color: rgba(209, 208, 250, 0.884);
+}
+
+h1{
+    margin-top: 0px ;
+    margin-bottom: -30px;
+    padding-left: 10px;
+    font: 4em Berlin Sans FB;
+    color: darkgoldenrod ;
+
+}
+
+#p1{
+    padding-left: 10px;
+    font: 2em Verdana Pro Semibold;
+    color:   rgb(12, 12, 87) ;
+        
+}
+
+#mainSec2{
+    height: 700px;
+    width: 1300px;
+    background-color: rgb(6, 6, 61) ;
+}
+
+#p2Footer{
+    height: 40px;
+    width: 1300px;
+    background-color :  rgba(209, 208, 250, 0.884) ; 
+
+    margin-top: 0px;
+    padding-left: 10px;
+    font: 1.5em  Arial ;
+    color:   rgb(12, 12, 87) ;
+}
